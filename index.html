@@ -2,17 +2,23 @@
   <head>
       <title>Test</title>
       <style>
-        .active {
-          background: blue;
+        .text, .text2 {
           font-size: 24px;
+        }
+        .text2 {
+          display: none
         }
       </style>
   </head>
   <body>
-    <div class='square'>
-      Square
+    <div class='text'>
+      Text to fade
     </div>
-    <button class='submit'>Submit</button>
+    <div class='text2'>
+      Text to fadein
+    </div>
+    <button class='fadeout'>Fade Out</button>
+    <button class='fadein'>Fade In</button>
     <script src='jquery.js'></script>
     <script src='code.js'></script>
   </body>
